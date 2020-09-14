@@ -1,0 +1,12 @@
+{
+    "editor.minimap.enabled": false,
+    "files.associations": {
+        "ostream": "cpp",
+        "cmath": "cpp",
+        "complex": "cpp",
+        "iostream": "cpp",
+        "array": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "Enabled",
+    "C_Cpp.intelliSenseEngineFallback": "Enabled"
+}
