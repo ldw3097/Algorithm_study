@@ -7,21 +7,21 @@ struct onetry
 {
     
     int topress;
-    array<int, 16> clocks;
-    array<int, 10> perswitch;
+    array<char, 16> clocks;
+    array<char, 10> perswitch;
     int aftertrys;
 
-    onetry(int a, array<int,16> b, array<int,10> c, int d)
+    onetry(int a, array<char,16> b, array<char,10> c, int d)
         :topress(a), clocks(b), perswitch(c), aftertrys(d){}
 
 };
 
 
-bool checkclock(const array<int, 16> clock)
+bool checkclock(const array<char, 16> clock)
 {
     for (int i : clock)
     {
-        if (i != 12)
+        if (i != 4)
         {
             return false;
         }
@@ -29,7 +29,7 @@ bool checkclock(const array<int, 16> clock)
     return true;
 }
 
-int solve(array<int, 16> clock, array<int, 10> perswitch)
+int solve(array<char, 16> clock, array<char, 10> perswitch)
 {
     //diagnose clock is already set
     if(checkclock(clock)) return 0;
@@ -45,11 +45,11 @@ int solve(array<int, 16> clock, array<int, 10> perswitch)
         targettry = todolist.front();
         
         
-        array<int, 16> tmpclock = targettry.clocks;
-        array<int,10> tmpperswitch = targettry.perswitch;
+        array<char, 16> tmpclock = targettry.clocks;
+        array<char,10> tmpperswitch = targettry.perswitch;
         for (int i : swiches.at(targettry.topress))
         {
-            tmpclock.at(i) = tmpclock.at(i) % 12 + 3;
+            tmpclock.at(i) = tmpclock.at(i) % 4 + 1;
         }
         tmpperswitch.at(targettry.topress)++;
         if(checkclock(tmpclock)){
@@ -61,7 +61,6 @@ int solve(array<int, 16> clock, array<int, 10> perswitch)
                 todolist.emplace(j, move(tmpclock), move(tmpperswitch), targettry.aftertrys+1); 
             }
         }
-        if(targettry.aftertrys > 9 ) cout << "broken";
         todolist.pop();
         
     }
@@ -79,12 +78,12 @@ int main()
     cin >> C;
     for (int c = 0; c < C; c++)
     {
-        array<int, 16> clocks;
-        array<int, 10> perswitch = {0};
+        array<char, 16> clocks;
+        array<char, 10> perswitch = {0};
         for (int i = 0; i < 16; i++)
         {   
             
-            clocks.at(i) = *istream_iterator<int>(cin);
+            clocks.at(i) = *istream_iterator<int>(cin)/3 ;
 
            
         }
@@ -92,6 +91,7 @@ int main()
         cout << solve(clocks, perswitch) << "\n";
         
     }
+    return 0;
 }
 
 /*
