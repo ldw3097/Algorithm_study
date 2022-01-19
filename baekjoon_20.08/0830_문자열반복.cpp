@@ -6,7 +6,7 @@ int main(){
     cin >> testcase;
 
     
-    pair<int, string> cases[testcase];
+    pair<int, string>* cases = new pair<int,string>[testcase];
     for(int i = 0; i<testcase; i++){
         cases[i].first = *istream_iterator<int>(cin); //
         cases[i].second = *istream_iterator<string>(cin);
@@ -14,7 +14,7 @@ int main(){
     }
 
     int tmpCase;
-    size_t tmpCaseSize;
+    unsigned tmpCaseSize;
     char targetChar;
     for(int i= 0; i<testcase; i++){
         tmpCase = cases[i].first;
