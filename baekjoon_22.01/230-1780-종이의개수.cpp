@@ -23,7 +23,7 @@ bool check(int y, int x, int num, int start) {
   return true;
 }
 
-void rec(int y, int x, int num) {
+void rec(int y, int x, int num) { 
   int start = arr[y][x];
   if (num == 1) {
     ADD(start);
