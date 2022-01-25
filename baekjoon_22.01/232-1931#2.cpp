@@ -24,7 +24,7 @@ int main() {
     cin >> start >> end;
     endstart.emplace(end, start);
   }
-
+  
   while (!endstart.empty()) {
     auto front = endstart.begin();
     unsigned firstOfFront = (*front).first;

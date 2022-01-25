@@ -13,7 +13,7 @@ struct compp {
   }
 };
 
-multimap<unsigned, unsigned, compp> endstart;
+multimap<unsigned, unsigned, compp> endstart;  // multimap은 value로 정렬하는게 불가능하다. 무조건 선착순.
 int main() {
   cin.tie(0);
   ios_base::sync_with_stdio(0);
