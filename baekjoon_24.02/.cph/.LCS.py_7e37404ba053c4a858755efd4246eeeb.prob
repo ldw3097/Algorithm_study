@@ -1,0 +1,1 @@
+{"name":"Local: LCS","url":"c:\\Users\\ldw\\Documents\\Algorithm\\baekjoon_24.02\\LCS.py","tests":[{"id":1708149159782,"input":"ACAYKP\nCAPCAK","output":"4"},{"id":1708149209211,"input":"AAAAA\nAAAAA","output":"5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\ldw\\Documents\\Algorithm\\baekjoon_24.02\\LCS.py","group":"local","local":true}

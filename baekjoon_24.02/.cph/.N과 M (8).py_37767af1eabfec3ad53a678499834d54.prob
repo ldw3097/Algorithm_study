@@ -1,0 +1,1 @@
+{"name":"Local: N과 M (8)","url":"c:\\Users\\ldw\\Documents\\Algorithm\\baekjoon_24.02\\N과 M (8).py","tests":[{"id":1707971093287,"input":"4 2\n9 8 7 1","output":"1 1\n1 7\n1 8\n1 9\n7 7\n7 8\n7 9\n8 8\n8 9\n9 9"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\ldw\\Documents\\Algorithm\\baekjoon_24.02\\N과 M (8).py","group":"local","local":true}
