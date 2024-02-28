@@ -1,0 +1,1 @@
+{"name":"Local: 트리의지름2","url":"c:\\Users\\ldw\\Documents\\Algorithm\\baekjoon_24.02\\트리의지름2.py","tests":[{"id":1708555862451,"input":"5\n1 3 2 -1\n2 4 4 -1\n3 1 2 4 3 -1\n4 2 4 3 3 5 6 -1\n5 4 6 -1","output":"11"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\ldw\\Documents\\Algorithm\\baekjoon_24.02\\트리의지름2.py","group":"local","local":true}

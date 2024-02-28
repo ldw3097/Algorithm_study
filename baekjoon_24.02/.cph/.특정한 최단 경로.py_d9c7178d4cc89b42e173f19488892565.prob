@@ -1,0 +1,1 @@
+{"name":"Local: 특정한 최단 경로","url":"c:\\Users\\ldw\\Documents\\Algorithm\\baekjoon_24.02\\특정한 최단 경로.py","tests":[{"id":1708904216015,"input":"4 6\n1 2 3\n2 3 3\n3 4 1\n1 3 5\n2 4 5\n1 4 4\n2 3","output":"7"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\ldw\\Documents\\Algorithm\\baekjoon_24.02\\특정한 최단 경로.py","group":"local","local":true}
