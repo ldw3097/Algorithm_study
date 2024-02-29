@@ -1,0 +1,1 @@
+{"name":"Local: 0229-행렬 곱셈 순서","url":"c:\\Users\\ldw\\Documents\\Algorithm\\baekjoon_24.02\\0229-행렬 곱셈 순서.py","tests":[{"id":1709204818924,"input":"3\n5 3\n3 2\n2 6","output":"90"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\ldw\\Documents\\Algorithm\\baekjoon_24.02\\0229-행렬 곱셈 순서.py","group":"local","local":true}

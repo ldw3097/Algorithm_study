@@ -1,0 +1,1 @@
+{"name":"Local: 0229-동전","url":"c:\\Users\\ldw\\Documents\\Algorithm\\baekjoon_24.02\\0229-동전.py","tests":[{"id":1709193006823,"input":"3\n2\n1 2\n1000\n3\n1 5 10\n100\n2\n5 7\n22","output":"501\n121\n1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\ldw\\Documents\\Algorithm\\baekjoon_24.02\\0229-동전.py","group":"local","local":true}
