@@ -129,5 +129,7 @@
     "editor.suggest.showProperties": false,
     "editor.suggest.showReferences": false,
     "editor.suggest.showSnippets": false,
-    "editor.suggestOnTriggerCharacters": false
+    "editor.suggestOnTriggerCharacters": false,
+    "java.validate.enable": false,
+    "editor.defaultFormatter": "ms-python.black-formatter"
 }
