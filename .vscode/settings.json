@@ -131,5 +131,8 @@
     "editor.suggest.showSnippets": false,
     "editor.suggestOnTriggerCharacters": false,
     "java.validate.enable": false,
-    "editor.defaultFormatter": "ms-python.black-formatter"
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "github.copilot.enable": {
+        "*": false
+    }
 }
